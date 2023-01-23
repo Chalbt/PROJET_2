@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Booki</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="styles.css">
+   <script src="https://kit.fontawesome.com/42674afd04.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id = "bloc_page">
+   
+   <header>
+   <div class = "header">
+      <div class = "menu">
+         <img src = "Images Booki/logo/Booki.png" alt "LogoBooki"/ class = "logo">
+      </div>
+      <nav>
+         <a>Hébergements</a>
+         <a>Activités</a>
+      </nav>
+   </div>
+   </header>
+   
+   <main>
+      
+      <div class = "recherche">
+         <h3>
+            Trouvez votre hébergement pour des vacances de rêve
+         </h3>
+         <p>
+            En plein centre-ville ou en pleine nature
+         </p>
+         
+         <!--Blocs recherche-->
+         <div class = "sectionrecherche">
+            <i class = "fa-solid fa-location-dot" id = "location"></i>
+            <form method = "post" action = "page.php">
+               <p>
+                  <input type="search" id="recherche" placeholder="Marseille, France" class = "encart">
+                  <button class = "bouton">Rechercher</button>
+               </p>
+            </form>
+         </div>
+         
+         <!--filtres de recherche-->
+         <div class = "filtres">
+            <!--filtre-->
+            <div class = "filtre">
+               Filtres
+            </div>
+            <!--bouton économique = logo + nom-->
+            <div class = "filtrelogo">
+               <i class="fa-solid fa-money-bill-wave"></i> Économique
+            </div>
+            <!--bouton familial = logo + nom-->
+            <div class = "filtrelogo">
+               <i class="fa-solid fa-person"></i> Familial
+            </div>
+            <!--bouton romantique = logo + nom-->
+            <div class = "filtrelogo">
+               <i class="fa-solid fa-heart"></i>Romantique
+            </div>
+            <!--bouton animaux autorisés = logo + nom-->
+            <div class = "filtrelogo">
+               <i class="fa-solid fa-dog"></i>Animaux autorisés
+            </div>
+         </div>
+
+         <div class = "info">
+            <i class="fa-solid fa-info"></i>
+            <p>
+            Plus de 500 logements sont disponibles dans cette ville
+            </p>
+         </div>
+      
+      </div>
+      
+      <div class = "proposition">  
+         <div class = "hebergements">
+            <h3>
+               Hébergements à Marseille
+            </h3>
+            <p>
+            <!--les différents hébergements-->
+            <!--bouton "afficher plus"-->
+            </p>
+         </div>
+         <div class = "populaires">
+            <!--les différents hébergements-->
+         </div>
+      </div>
+      
+      <div class = "activites">
+         <h3>Activités à Marseille</h3>
+         <!--liste activites-->
+      </div>
+   
+   </main>
+
+   <footer>
+
+      <div class = "apropos">
+         <h4>À propos</h4>
+         <!--liste-->
+      </div>
+
+      <div class = "noshebergements">
+         <h4>Nos hébergements</h4>
+         <!--liste-->
+      </div>
+
+      <div class = "assistance">
+         <h4>Assistance</h4>
+         <!--liste-->
+      </div>
+   </footer>
+
+</div>
+</body>
+</html>

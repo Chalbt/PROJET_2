@@ -1,0 +1,142 @@
+@media screen and (max-width : 1400px)
+{
+    #bloc_page
+    {
+        width : 992px;
+        margin : auto;
+        margin : 40px 50px 0 50px;
+    }
+}
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*header*/
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.logo 
+{
+    height: 19px;
+}
+
+.menu
+{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+nav a 
+{
+    text-align: center;
+    margin-left: 30px;
+}
+
+a:hover
+{
+    color: #0065FC;
+    text-decoration: overline;
+    ;
+    /* version mobile 
+    text-decoration: underline; */
+}
+
+
+/* section recherche*/
+h3
+{
+    font-size: 22px;
+}
+
+.recherche p
+{
+    font-size: 16px;
+}
+
+#location
+{
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    background: #F2F2F2;
+    width : 50px;
+    height: 49px;
+    margin-top: 15px;
+}
+
+.sectionrecherche
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch; 
+}
+
+.encart
+{
+    border: 1px solid #F2F2F2;
+    height: 49px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.bouton 
+{
+    background-color: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    width: 132px;
+    height: 49px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+
+/* section filtres */
+.filtres
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filtres i
+{
+    color: #0065FC;
+}
+
+.filtrelogo
+{
+    border: 3px solid #F2F2f2;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin-right: 20px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.filtrelogo i
+{
+    margin-right: 10px;
+}
+
+.filtre
+{
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 700px;
+}
