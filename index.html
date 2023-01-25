@@ -17,8 +17,8 @@
          <img src = "Images Booki/logo/Booki.png" alt "LogoBooki"/ class = "logo">
       </div>
       <nav>
-         <a>Hébergements</a>
-         <a>Activités</a>
+         <a href = "#hebergements">Hébergements</a>
+         <a href = "#activites">Activités</a>
       </nav>
    </div>
    </header>
@@ -77,9 +77,9 @@
       
       </div>
       
-      <div class = "proposition">  
+      <div class = "bloc_central">  
          <div class = "hebergements">
-            <h3>
+            <h3 id="hebergements">
                Hébergements à Marseille
             </h3>
             <!--les différents hébergements-->
@@ -183,38 +183,119 @@
                   </a>
                </div>
             <!--bouton "afficher plus"-->
-            <p>
+            <p class = "afficher">
                <a href = "#">Afficher plus</a>
             </p>
          </div>
-         <div class = "populaires">
+
+         <div class = "plus_populaires">
             <!--les différents hébergements-->
+            <h3>Les plus populaires</h3>
+               <div class = "liste_populaires">
+                  <div class="populaires">
+                     <img src="Images Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Le soleil du matin" style="width:100%">
+                     <div class="proposition">
+                       <h4>Hôtel Le soleil du matin</h4> 
+                       <p>Nuit à partir de 128€</p> 
+                       <div class = "note">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        </div>
+                     </div>
+                   </div>
+                   <div class="populaires">
+                     <img src="Images Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau" style="width:100%">
+                     <div class="proposition">
+                       <h4>Chambres d'hôtes Au coeur de l'eau</h4> 
+                       <p>Nuit à partir de 71€</p> 
+                       <div class = "note">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        </div>
+                     </div>
+                   </div>
+                   <div class="populaires">
+                     <img src="Images Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Bleu et Blanc" style="width:100%">
+                     <div class="proposition">
+                       <h4>Hôtel Bleu et Blanc</h4> 
+                       <p>Nuit à partir de 68€</p> 
+                       <div class = "note">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        </div>
+                     </div>
+                   </div>
+               </div>
          </div>
       </div>
       
       <div class = "activites">
-         <h3>Activités à Marseille</h3>
+         <h3 id="activites">Activités à Marseille</h3>
          <!--liste activites-->
+         <div class = "proposition_activites">
+            <div class="liste_activites">
+               <a href="#">
+                  <img src="Images Booki/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux-Port" style="width:100%">
+               <h5>Vieux-Port</h5>
+               </a>   
+            </div>
+            <div class="liste_activites">
+               <a href="#">
+                  <img src="Images Booki/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" style="width:100%">
+               <h5>Fort de Pomègues</h5>
+               </a>   
+            </div>
+            <div class="liste_activites">
+               <a href = "#">
+                  <img src="Images Booki/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc national des Calanques" style="width:100%">
+               <h5>Parc national des Calanques</h5>
+               </a>   
+            </div>
+            <div class="liste_activites">
+               <a href ="#">
+                  <img src="Images Booki/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde" style="width:100%">
+               <h5>Notre-Dame-de-la-Garde</h5>
+               </a>   
+            </div>
+         </div>
       </div>
    
    </main>
 
    <footer>
 
-      <div class = "apropos">
-         <h4>À propos</h4>
-         <!--liste-->
-      </div>
-
-      <div class = "noshebergements">
-         <h4>Nos hébergements</h4>
-         <!--liste-->
-      </div>
-
-      <div class = "assistance">
-         <h4>Assistance</h4>
-         <!--liste-->
-      </div>
+      
+         <div class = "menu_footer">
+            <h6>À propos</h6>
+            <!--liste-->
+               <a href="#">Fonctionnement du site</a>
+               <a href = "#">Conditions générales</a>
+               <a href = "#">Données et confidentialités</a>
+         </div>
+   
+         <div class = "menu_footer">
+            <h6>Nos hébergements</h6>
+            <!--liste-->
+               <a href="#">Charte qualité</a>
+               <a href = "#">Proposer votre hôtel</a>
+         </div>
+   
+         <div class = "menu_footer">
+            <h6>Assistance</h6>
+            <!--liste-->
+            <a href="#">Centre d'aide</a>
+            <a href = "#">Nous contacter</a>
+         </div>
+      
    </footer>
 
 </div>
