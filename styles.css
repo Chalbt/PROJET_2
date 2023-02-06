@@ -793,4 +793,9 @@ footer a
         flex-direction: column;
         padding-left: 20px;
     }
+
+    .menu_footer
+    {
+        width: 60%;
+    }
 }
