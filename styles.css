@@ -1,11 +1,3 @@
-@media screen and (min-width: 992px) and (max-width: 1400px)
-{
-    #bloc_page
-    {
-        margin : 0 20px 0 20px;
-    }
-}
-
 #bloc_page
 {
     max-width: 1400px;
@@ -116,12 +108,14 @@ nav a:hover
     color: white;
     text-align: center;
     margin-left: -5px;
+    height: 60px;
 }
 
-.bouton p
+.bouton span
 {
     font-size: 18px;
     font-weight: 700;
+    color: white;
 }
 
 .bouton i
@@ -242,14 +236,14 @@ h6
 
 
 /*section*/
-section
+.section
 {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
 }
 
-section p
+.section p
 {
     font-size: 14px;
     font-weight: 400;
@@ -360,8 +354,7 @@ aside
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: calc(100% - 50px);
-    margin-left: 20px;
+    width: 85%;
 }
 
 .titre_populaires i
@@ -528,6 +521,14 @@ footer a
 
 /*fin screen*/
 
+@media screen and (min-width: 992px) and (max-width: 1400px)
+{
+    #bloc_page
+    {
+        margin : 0 20px 0 20px;
+    }
+}
+
 /*tablette*/
 @media screen and (min-width: 768px) and (max-width: 991px)
 {
@@ -548,7 +549,7 @@ footer a
         width: 85%;
     }
     
-    section
+    .section
     {
         display: flex;
         flex-direction: column;
@@ -562,15 +563,6 @@ footer a
 
     .card
     {
-        border-radius: 20px;
-        background-color: white;
-        border: 5px solid #FFFFFF;
-        object-fit: contain;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-        box-shadow: 1px 1px 10px grey;
-        overflow: hidden;
         height: 100%;
     }
 
@@ -579,6 +571,12 @@ footer a
         width: calc(100% - 20px);
         justify-content: space-around;
         align-items: flex-start;
+    }
+
+    .titre_populaires
+    {
+        margin-left: 20px;
+        width: 94%;
     }
 
     .liste_populaires
@@ -678,7 +676,7 @@ footer a
         font-size: 17px;
     }
 
-    .bouton p
+    .bouton span
     {
         display: none;
     }
@@ -686,7 +684,6 @@ footer a
     .bouton
     {
         height: 60px;
-        padding-bottom: 5px;
         padding-left: 15px;
         width: auto;
     }
@@ -714,7 +711,7 @@ footer a
         margin-left: 0;
     }
 
-    section
+    .section
     {
         display: flex;
         flex-direction: column-reverse;
@@ -739,7 +736,6 @@ footer a
 
     .card
     {
-        width: 100%;
         height: 199px;
     }
 
