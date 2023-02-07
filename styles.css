@@ -669,6 +669,11 @@ footer a
         margin-left: 25px;
     }
 
+    .encart
+    {
+        width: 200px;
+    }
+
     .bouton i
     {
         display: flex;
