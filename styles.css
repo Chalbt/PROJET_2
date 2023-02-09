@@ -7,6 +7,7 @@ body
 {
     font-family: 'Raleway', sans-serif;
     margin: 0;
+    font-size: 16px;
 }
 
 /*header*/
@@ -22,14 +23,6 @@ body
 .logo 
 {
     height: 19px;
-}
-
-.menu
-{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
 }
 
 nav
@@ -97,6 +90,7 @@ nav a:hover
     color: black;
     font-size: 18px;
     text-align: center;
+    font-weight: 700;
 }
 
 .bouton 
@@ -332,9 +326,7 @@ article
 
 article h6
 {
-    margin-left: 20px;
-    margin-bottom: 30px;
-    margin-top: 10px;
+    margin: 10px 0 30px 20px;
 }
 
 
@@ -365,7 +357,7 @@ aside
 
 .texte_populaires
 {
-    margin-left: 10px;
+    margin: 5px 0 0 10px;
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -590,6 +582,16 @@ footer a
         width: 33%;
     }
 
+    .texte p
+    {
+        font-size: 13px;
+    }
+
+    .texte h4
+    {
+        font-size: 14px;
+    }
+
     .image_populaires
     {   
         overflow: hidden;
@@ -617,7 +619,6 @@ footer a
     {
         margin-right: 20px;
         column-gap: 80px;
-        padding-left: 15px;
     }
 }
 
